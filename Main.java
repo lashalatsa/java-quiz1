@@ -1,68 +1,86 @@
-import org.xml.sax.SAXException;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.TransformerException;
-import java.io.IOException;
-import org.w3c.dom.*;
-import javax.xml.parsers.*;
-import java.io.*;
-import java.util.ArrayList;
+import java.awt.*;
+import java.util.*;
 import java.util.List;
 
+//public class Main {
+//    public static void main(String[] args) {
+//        List<String> cars = new ArrayList();
+//        cars.add("bmw");
+//        cars.add("mewsedes");
+//        cars.add("pajero");
+//        cars.add("hnday");
+//        cars.add("bugati");
+//        System.out.println(cars);
+//        cars.set(2, "lada");
 
-public class Main {
-    public static void main(String[] args) throws IOException, ParserConfigurationException, TransformerException, SAXException {
+//        System.out.println(cars);
+//        cars.remove(2);
+//        System.out.println(cars);
+//        System.out.println(cars.size());
+//        cars.clear();
+//        System.out.println(cars);
 
-//        XmlUtil.createXML();
-
-//        for (Students students : XmlUtil.parseXML()) {
-//            System.out.println(students);
-//        }
-
-//        CreateFile.cfile();
-//        Writefile.wfile();
-//        Readfile.Rfile();
-//        Deletefile.Dfile();
-//        CreateXmlFileDemo.Createxml();
-//        XmlUtil.createXML();
-
-
-
-
-
-
-
-//        List<String> list = new ArrayList<String>();
-//        list.add("lahsa");
-//        list.add("levana");
-//        list.add("mixa");
-//        for(String name:list){
-//            System.out.println(name);
-//        String[] names = {"lasha","zvio","gocha"};
-//        List<String> list = new ArrayList<String>();
-//        for(String name:names){
-//            list.add(name);
-//        }
-//        System.out.println(list);
-//        System.out.println(list.get(2));
-//        list.set(1,"jora");
-//        System.out.println(list);
-
-
-//        String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-//        for (String i : cars) {
-//            System.out.println(i);
-//        }
-
-//        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
-//        int x = myNumbers[1][2];
-//        System.out.println(x); // Outputs 7
-
-
-//        int[][] numbers = {{1,2,3,4},{5,6,7}};
-//        for(int i=0;i<numbers.length;i++)
-//            for(int j=0;j<numbers[i].length;j++)
-//                System.out.println(numbers[i][j]);
+//        Iterator<String> it = cars.iterator();
 //
-    }
-}
+//        while(it.hasNext()){
+//            System.out.println(it.next());
+//        }
 
+
+//        LinkedList<String> cars = new LinkedList<>();
+//        cars.add("bmw");
+//        cars.add("mewsedes");
+//        cars.add("pajero");
+//        cars.add("hnday");
+//        cars.add("bugati");
+//        cars.addFirst("fiat");
+//        cars.addLast("opel");
+//        System.out.println(cars.getFirst());
+//        System.out.println(cars.getLast());
+
+
+//        Stack<String> cars = new Stack<>();
+//        cars.add("bmw");
+//        cars.add("mewsedes");
+//        cars.add("pajero");
+//        cars.add("hunday");
+//        cars.add("bugati");
+//        System.out.println(cars.pop());
+//        System.out.println(cars.pop());
+//        System.out.println(cars.push("pajero"));
+
+
+//        Set<String> cars = new HashSet<>();
+//        cars.add("bmw");
+//        cars.add("mewsedes");
+//        cars.add("pajero");
+//        cars.add("hunday");
+//        cars.add("bugati");
+//        System.out.println(cars);
+//
+
+
+//        Map<String,String> cities = new HashMap<>();
+//        cities.put("Georgia","Tbilisi");
+//        cities.put("Norway","oslo");
+//        cities.put("germany","Berlin");
+
+
+//        Map<Integer,String> students = new HashMap<>();
+//        students.put(1,"lasha");
+//        students.put(2,"luka");
+//        students.put(217,"nikolozi");
+//        System.out.println(students);
+//        System.out.println(students.get(217));
+//
+//
+//
+//        List<Myclass> myclasses = new ArrayList<>();
+//        myclasses.add(new Myclass(3));
+//        myclasses.add(new Myclass(9));
+//        myclasses.add(new Myclass(2));
+//        myclasses.add(new Myclass(7));
+//        System.out.println(myclasses.);
+//
+//    }
+//}
